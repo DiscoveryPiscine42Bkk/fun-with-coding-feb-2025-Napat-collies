@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parallax {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    background-attachment: fixed;
+  }
+  
+  .bg1 {
+    background-image: url("https://assets.porsche.com/th/bangkok/-/media/Project/DealerWebsites/SharedDealersWebsite/Model-Teaser/718/BX20I3GOX0001_rgb.jpg?rev=-1");
+  }
+  
+  .blackbox {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .bg2 {
+    background-image: url("https://wallpaper.dog/large/10788563.jpg");
+  }
